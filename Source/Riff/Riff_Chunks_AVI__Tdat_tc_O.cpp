@@ -20,7 +20,7 @@
 void Riff_AVI__Tdat_tc_O::Read_Internal ()
 {
     //Integrity
-    if (Global->iXML)
+    if (Global->Tdat->Strings.find("tc_O")!=Global->Tdat->Strings.end())
         throw exception_valid("2 tc_O chunks");
 
     //Reading
