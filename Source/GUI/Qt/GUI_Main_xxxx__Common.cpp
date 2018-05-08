@@ -200,7 +200,7 @@ bool GUI_Main_xxxx__Common::event (QEvent* Event)
 }
 
 //---------------------------------------------------------------------------
-void GUI_Main_xxxx__Common::dataChanged ( const QModelIndex & topLeft, const QModelIndex & bottomRight ) 
+void GUI_Main_xxxx__Common::dataChanged ( const QModelIndex & topLeft, const QModelIndex & bottomRight, const QVector<int> & roles)
 {
     //Preparing
     if (Updating)

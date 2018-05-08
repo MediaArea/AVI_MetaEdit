@@ -41,7 +41,7 @@ protected Q_SLOTS:
 protected:
     //Events
     bool                    event               (QEvent *Event); 
-    void                    dataChanged         (const QModelIndex &topLeft, const QModelIndex &bottomRight); 
+    void                    dataChanged         (const QModelIndex &topLeft, const QModelIndex &bottomRight, const QVector<int> & roles = QVector<int> ()); 
 
     //Helpers
     void                    Colors_Update       ();
