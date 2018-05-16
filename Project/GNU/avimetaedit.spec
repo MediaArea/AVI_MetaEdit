@@ -15,6 +15,7 @@ License:		CC0-1.0+
 URL:			http://mediaarea.net
 Packager:		Jerome Martinez <info@mediaarea.net>
 Source0:		avimetaedit_%{version}-1.tar.gz
+Prefix:		%{_prefix}
 BuildRoot:		%{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires:	dos2unix
 BuildRequires: 	gcc-c++
