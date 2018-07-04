@@ -4,7 +4,7 @@
 
 # norootforbuild
 
-%define avimetaedit_version		1.0.1
+%global avimetaedit_version		1.0.1
 
 Name:			avimetaedit
 Version:		%avimetaedit_version
