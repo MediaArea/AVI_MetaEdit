@@ -21,7 +21,7 @@ macx {
     contains(MACSTORE, yes|1) {
         QMAKE_CFLAGS += -gdwarf-2
         QMAKE_CXXFLAGS += -gdwarf-2
-        QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.7
+        QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.9
     }
 }
 
